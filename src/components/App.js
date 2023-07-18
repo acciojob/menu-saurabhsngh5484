@@ -4,8 +4,7 @@ import Menu from "./Menu";
 const App = ()=>{
     return(
         <div>
-            <Menu/>
-            
+            <Menu/>            
         </div>
     )
 }
