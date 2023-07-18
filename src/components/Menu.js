@@ -121,6 +121,7 @@ const Menu = () => {
                         <img src={food.img} alt={food.title}></img>
                         <h2><span>{food.title}</span> <span>{food.price}</span></h2>
                         <p>{food.desc}</p>
+                        
                     </div>:
                     food.category=='breakfast'?
                     <div data-test-id="menu-item-breakfast">
